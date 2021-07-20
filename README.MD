@@ -19,7 +19,7 @@
 # Contact
 
 #### email adress: rashidaisha.ara@gmail.com
-#### project link https://github.com/rashidaysher/portofolio
+#### project link https://github.com/rashidaysher/Birthdays
 
 
 
