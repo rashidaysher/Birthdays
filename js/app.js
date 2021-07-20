@@ -25,14 +25,19 @@ btn.addEventListener("click", function () {
         dayResults.textContent = "invalid day";
         return;
     }
+
+    if (MM<1 || MM > 12) {
+        monthResult.textContent = "invalid month";
+        return;
+    }
+
+    // getting day from date
     
 
 
 
+
 }
-
-
-
 )
 
 
