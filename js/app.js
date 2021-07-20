@@ -5,3 +5,12 @@ let month =["January", "February", "March", "April", "May", "June", "July", "Aug
 const maleAkan = [ "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", 
 
 ]
+
+// from form
+const femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+const month = document.getElementById("month");
+const day = document.getElementById("day");
+const year = document.getElementById("year");
+const gender = const gender = document.getElementById("gender");
+
+
