@@ -37,14 +37,60 @@ btn.addEventListener("click", function () {
     var Day = A.getDay();
 
     // get name from day
-    
+    if (gender.value == "female") {
+        switch (Day) {
+          case 0:
+            name.textContent = femaleAkan[0];
+            break;
+          case 1:
+            name.textContent = femaleAkan[1];
+            break;
+          case 2:
+            name.textContent = femaleAkan[2];
+            break;
+          case 3:
+            name.textContent = femaleAkan[3];
+            break;
+          case 4:
+            name.textContent = femaleAkan[4];
+            break;
+          case 5:
+            name.textContent = femaleAkan[5];
+            break;
+          case 6:
+            name.textContent = femaleAkan[6];
+            break;
+          default:
+            name.textContent = "out of range";
+        }
+      } else {
+        switch (Day) {
+          case 0:
+            name.textContent = maleAkan[0];
+            break;
+          case 1:
+            name.textContent = maleAkan[1];
+            break;
+          case 2:
+            name.textContent = maleAkan[2];
+            break;
+          case 3:
+            name.textContent = maleAkan[3];
+            break;
+          case 4:
+            name.textContent = maleAkan[4];
+            break;
+          case 5:
+            name.textContent = maleAkan[5];
+            break;
+          case 6:
+            name.textContent = maleAkan[6];
+            break;
+          default:
+            name.textContent = "out of range";
+        }
+      }
 
-
-
-
-
-
-}
-)
+});
 
 
