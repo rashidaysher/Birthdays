@@ -32,7 +32,11 @@ btn.addEventListener("click", function () {
     }
 
     // getting day from date
-    
+    var date1 = months [MM - 1] + " " + DD + "," + year.value;
+    var A = new Date(date1);
+    var Day = A.getDay();
+
+
 
 
 
