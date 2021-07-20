@@ -11,6 +11,12 @@ const femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 const month = document.getElementById("month");
 const day = document.getElementById("day");
 const year = document.getElementById("year");
-const gender = const gender = document.getElementById("gender");
+const gender  = document.getElementById("gender");
+const dayResults = document.querySelector(".dayResults");
+const monthResult = document.querySelector(".monthResults");
+const name = document.querySelector(".name");
+const btn =  document.getElementById("btn");
+
+// onbutton click
 
 
