@@ -18,5 +18,21 @@ const name = document.querySelector(".name");
 const btn =  document.getElementById("btn");
 
 // onbutton click
+btn.addEventListener("click", function () {
+    const MM = month.value;
+    const DD = day.value;
+    if (DD< 1 || DD>30 ) {
+        dayResults.textContent = "invalid day";
+        return;
+    }
+    
+
+
+
+}
+
+
+
+)
 
 
