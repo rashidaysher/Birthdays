@@ -36,6 +36,9 @@ btn.addEventListener("click", function () {
     var A = new Date(date1);
     var Day = A.getDay();
 
+    // get name from day
+    
+
 
 
 
